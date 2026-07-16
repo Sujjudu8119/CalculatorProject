@@ -1,11 +1,19 @@
-function add(){
+function subtract(){
 
 let a=parseInt(document.getElementById("num1").value);
 
 let b=parseInt(document.getElementById("num2").value);
 
-let c=a+b;
+document.getElementById("result").innerHTML="Result = "+(a-b);
 
-document.getElementById("result").innerHTML="Result = "+c;
+}
+
+function multiply(){
+
+let a=parseInt(document.getElementById("num1").value);
+
+let b=parseInt(document.getElementById("num2").value);
+
+document.getElementById("result").innerHTML="Result = "+(a*b);
 
 }
